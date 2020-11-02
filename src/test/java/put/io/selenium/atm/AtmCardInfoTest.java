@@ -36,7 +36,7 @@ public class AtmCardInfoTest {
 	@Test
 	public void testTryPinIncorrect() {
 		fixture.cardIn();
-		fixture.tryPin("1524");
+		fixture.tryPin("1525");
 		assertFalse(fixture.pinWasOk);
 		assertEquals(2, fixture.pinTriesLeft);
 	}
