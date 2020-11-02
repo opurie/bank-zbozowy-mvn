@@ -29,7 +29,7 @@ public class AtmCardInfoTest {
 	@Test
 	public void testTryPinCorrect() {
 		fixture.cardIn();
-		fixture.tryPin("1400");
+		fixture.tryPin("1524");
 		assertTrue(fixture.pinWasOk);
 	}
 	
